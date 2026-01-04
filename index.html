@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="this is meta description">
+    <meta name="description" content="this is meta description" />
     <link rel="stylesheet" href="style.css" />
-    <title>Website from scratch</title>
+    <title>Pipins Snippets</title>
   </head>
   <body>
     <header>
@@ -15,12 +15,17 @@
           <li><a href="#JAVA">JavaScript</a></li>
           <li><a href="#">Project #1</a></li>
           <li><a href="#">About</a></li>
+          <li><button id="toggle">Hacker mode</button></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <h1 id="HTML">HTML Snippets</h1>
+      <h1>Pipins Snippets :3</h1>
+      <br>
+      <!--HTML Snippets-->
+      <section>
+      <h2 id="HTML"><abbr title="HyperText Markup Language">HTML</abbr> Snippets</h2>
       <p>The collection of handy snippets Pipin finds useful!</p>
 
       <div class="container">
@@ -34,7 +39,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
-    <title>Website from scratch</title>
+    <title>Page Title</title>
   </head>
   <body>
     <header>
@@ -61,10 +66,12 @@
           <button class="copy-btn">Copy</button>
           <textarea class="snippet" name="name" readonly></textarea>
         </div>
-
       </div>
+      </section>
 
-      <h1 id="CSS">CSS Snippets</h1>
+      <!--CSS Snippets-->
+      <section>
+      <h2 id="CSS"><abbr title="Cascading Style Sheets">CSS</abbr> Snippets</h2>
       <p>Stylish Pipin, meow</p>
 
       <div class="container">
@@ -88,9 +95,11 @@
           <textarea class="snippet" name="name" readonly></textarea>
         </div>
       </div>
+      </section>
 
-
-      <h1 id="JAVA">JavaScript Snippets</h1>
+      <!--JavaScript Snippets-->
+      <section>
+      <h2 id="JAVA">JavaScript Snippets</h2>
       <p>¯\_(ツ)_/¯ Pipin no tiene ni puta idea</p>
 
       <div class="container">
@@ -114,15 +123,24 @@
           <textarea class="snippet" name="name" readonly></textarea>
         </div>
       </div>
+      </section>
 
-      </main>
+      <!--Custom Snippet-->
+      <section>
+          <div class="snip">
+          <h3>Custom Snippet</h3>
+          <button class="copy-button">Copy</button>
+          <textarea class="textarea" name="name" readonly>snip area gilbertas rulez</textarea>
+        </div>
+      </section>
+
+    </main>
 
     <footer>
       <div class="pipin">
-      <img src="Pipin.png"/>
+      <img src="pipin.png" id="Pipin" alt="Cat named Pipin standing on his feet"/>
       </div>
     </footer>
       <script src="main.js"></script>
   </body>
 </html>
-

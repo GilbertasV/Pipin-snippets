@@ -6,6 +6,10 @@ body {
   font-family: monospace;
   margin: 0;
 }
+body.dark{
+  background-color: #2d2b2b;
+  color: #39a733;
+}
 
 header{
   position: sticky;
@@ -16,7 +20,10 @@ header{
   background-color: #068DC2;
 }
 h1{
-  font-family: monospace;
+  margin-left: 10%;
+}
+h2{
+  font-size: 1.5rem;
   margin-left: 10%;
 }
 p{
@@ -108,4 +115,7 @@ footer{
 .pipin img{
   pointer-events: none;
   width: 150px;
+}
+abbr{
+  text-decoration: none;
 }
