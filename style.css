@@ -146,4 +146,8 @@ abbr{
 
 /* #region MEDIA */
 
+@media (max-width:768px){
+.container{flex-direction: column;}
+.main_menu {flex-direction: column;}
+}
 /* #endregion */
