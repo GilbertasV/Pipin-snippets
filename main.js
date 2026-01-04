@@ -32,3 +32,4 @@ document.querySelectorAll(".snip").forEach(snip=>{
     mode.textContent = isDark ? "Normal mode": "Hacker mode";
     Pipin.src = isDark ? "Pipin_glasses.png": "Pipin.png";
   })
+
