@@ -147,7 +147,13 @@ abbr{
 /* #region MEDIA */
 
 @media (max-width:768px){
-.container{flex-direction: column;}
+.container{
+flex-direction: column;
+width:90%;
+height: auto;
+}
+.container div{flex:none;}
+.snippet{min-height:180px;}
 .main_menu {flex-direction: column;}
 .pipin {display:none}
 }
