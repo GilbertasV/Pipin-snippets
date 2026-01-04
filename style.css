@@ -156,10 +156,11 @@ min-height:180px;
 }
 .container div{flex:none;}
 .snippet{min-height:180px;}
-.main_menu {flex-direction: column;
-gap:5px;
+.main_menu {
+flex-direction: column;
+gap: 5px;
 }
-.main_menu a{font-size:1rem;}
+.main_menu a{font-size: 0.5rem;}
 .pipin {display:none}
 header{padding:0;}
 }
