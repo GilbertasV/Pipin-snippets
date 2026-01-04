@@ -150,7 +150,9 @@ abbr{
 .container{
 flex-direction: column;
 width:90%;
+
 height: auto;
+min-height:180px;
 }
 .container div{flex:none;}
 .snippet{min-height:180px;}
