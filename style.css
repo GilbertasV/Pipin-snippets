@@ -149,5 +149,6 @@ abbr{
 @media (max-width:768px){
 .container{flex-direction: column;}
 .main_menu {flex-direction: column;}
+.pipin {display:none}
 }
 /* #endregion */
